@@ -6,6 +6,8 @@
 
 ## Module 11 - Deployment on Kubernetes
 
+
+### Reflection on Hello Minikube
 1. Compare the application logs before and after you exposed it as a Service.
     ![Before Exposed Logs](static/images/beforeexpose.png)
     > Hasil dari `kubectl logs hello-node` sebelum melakukan exposing pod.
