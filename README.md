@@ -46,7 +46,7 @@ Perbedaan antara strategi penerapan Rolling Update dan Recreate di Kubernetes te
 
 3. Prepare different manifest files for executing Recreate deployment strategy.  
   Sama seperti pada poin 2 kita menggunakan recreate strategi deployment sehingga kita dapat langsung melakukan export ke deployment2.yaml dengan perintah.
-  `kubectl get deployments/spring-petclinic-rest -o yaml > deployment2.yaml`
+  `kubectl get deployments/spring-petclinic-rest -o yaml > deployment2.yaml`  
   ![alt text](static/images/image-10.png)
 
 4. What do you think are the benefits of using Kubernetes manifest files?  
